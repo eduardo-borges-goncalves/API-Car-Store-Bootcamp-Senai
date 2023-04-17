@@ -1,5 +1,68 @@
+# API Car Store - English
+
+This project is an API for a car store, developed during a bootcamp at Senai using C# as the main technology.
+
+## Technologies Used
+
+- C#
+- ASP.NET Core 3.1
+- Entity Framework Core
+- Swagger
+
+## How to run the project
+
+1. Clone the repository
+2. Open the solution in Visual Studio
+3. Open the Package Manager Console and run the following command to create the database:
+
+```bash
+Update-Database
+```
+
+4. Run the project in Visual Studio
+5. Open your browser and go to [https://localhost:5001/swagger/index.html](https://localhost:5001/swagger/index.html) to access the Swagger documentation
+
+## Endpoints
+
+The API has the following endpoints:
+
+### GET /api/cars
+
+Returns a list of all cars in the database.
+
+### GET /api/cars/{id}
+
+Returns a car by its id.
+
+### POST /api/cars
+
+Creates a new car.
+
+### PUT /api/cars/{id}
+
+Updates a car by its id.
+
+### DELETE /api/cars/{id}
+
+Deletes a car by its id.
+
+## Database
+
+The database used in this project is a Microsoft SQL Server database, created using Entity Framework Core. The database has a single table, called "Cars", which contains the following fields:
+
+- Id (int, primary key)
+- Brand (nvarchar(50), not null)
+- Model (nvarchar(50), not null)
+- Year (int, not null)
+- Price (decimal(18,2), not null)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 # M2P2-DEVinCar
 ![cars](https://user-images.githubusercontent.com/102731743/187086692-2888d833-a6b1-4bed-9ce5-2386ef585d27.png)
+
+# API Car Store - Português
 
 Aplicação backend do DEVinCar, projeto desenvolvido pelos alunos do curso DEVinHouse Turma Audaces 2022, do SENAI/SC.
 
