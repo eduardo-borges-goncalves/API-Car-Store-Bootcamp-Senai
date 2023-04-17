@@ -59,10 +59,12 @@ The database used in this project is a Microsoft SQL Server database, created us
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-# M2P2-DEVinCar
-![cars](https://user-images.githubusercontent.com/102731743/187086692-2888d833-a6b1-4bed-9ce5-2386ef585d27.png)
+
 
 # API Car Store - Português
+![cars](https://user-images.githubusercontent.com/102731743/187086692-2888d833-a6b1-4bed-9ce5-2386ef585d27.png)
+
+
 
 Aplicação backend do DEVinCar, projeto desenvolvido pelos alunos do curso DEVinHouse Turma Audaces 2022, do SENAI/SC.
 
